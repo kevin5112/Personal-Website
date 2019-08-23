@@ -1,0 +1,118 @@
+div.container.summry {
+	position: relative;
+	background: white;
+	overflow: hidden;
+	padding: 200px 0px 0px;
+	height: 570px;
+}
+
+div.container.sideProjects {
+	height: 500px;
+}
+
+div .projectHeader {
+	font-size: 2.2em;
+	font-weight: 500;
+	text-align: center;
+	font-family: Lato, sans-serif;
+	color: #293656;
+	margin: 70px 0px 0px 0px;
+}
+
+div .projectBody {
+	font-size: 1.2em;
+	font-weight: 300;
+	text-align: center;
+	font-family: Lato, sans-serif;
+}
+
+a .projectButton {
+	
+}
+
+body {
+	background: rgb(245, 245, 245);
+	color: rgb(82, 95, 127);
+	font-family: Lato, sans-serif;
+}
+
+a.sMedia {
+	color: rgb(82, 95, 127);
+	font-size: 1.2em;
+}
+
+.nameBox {
+	float: left;
+	position: relative;
+	width: 50%;
+	padding: 0px 15px;
+}
+
+div.nameBox p.name {
+	font-size: 3.5em;
+	color: #293656;
+	font-family: Lato, sans-serif;
+	font-weight: 400;
+	margin: 0px 0px 0px -3px;
+}
+
+div.nameBox p.nameText {
+	font-size: 1.2em;
+	margin: 15px 0px 20px;
+}
+
+div.nameBox button.nameBoxButton {
+	background: rgb(52, 152, 219);
+	/*background-color: rgb(75, 175, 250);*/
+	fond-weight: 700;
+	margin-right: 10px;
+	font-size: 1.2em;
+	display: inline-block;
+	color: white;
+	letter-spacing: 0.5px;
+	border-radius: 25px;
+	text-decoration: none;
+	transition: background 0.5s ease 0s;
+}
+
+div.nameBox button.nameBoxButton:hover {
+	background: rgb(20, 120, 178);
+	color: white;
+}
+
+
+
+div.icons i {
+	color: 	rgb(82, 95, 127);
+	margin-top: 0;
+}
+
+div.icons i active {
+	color: #5A76BD;
+	margin-top: 0;
+}
+
+a.sMedia:hover {
+	color: #39A0D1;
+}
+
+.boxLeft {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+div.cpright {
+	margin-bottom: 50px;
+	margin-top: 15px;
+}
+
+div.footDetails {
+	color: rgb(82, 95, 127);
+	margin: 30px;
+}
+
+div.smallStuff {
+	padding: 5px;
+}
