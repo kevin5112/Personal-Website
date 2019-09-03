@@ -1,12 +1,14 @@
+// INCLUDE PACKAGES
 var express = require("express");
-var mongoose = require("mongoose");
+const nodemailer =require('nodemailer');
+const bodyParser = require('body-parser');
 var app = express();
 
 
 // APP CONFIG
-mongoose.connect("mongodb://localhost/portfolio", { useNewUrlParser: true });
 app.set("view engine", "ejs"); // don't have to put ejs extension after file name.
 app.use(express.static("public"));
+app.use(bodyParser.urlencoded({extended: true}));
 
 
 // HOME PAGE
