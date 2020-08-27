@@ -2,7 +2,7 @@ div.container.summry {
 	position: relative;
 	overflow: hidden;
 	background: rgb(245, 245, 245);
-	padding: 200px 0px 0px;
+	padding: 125px 0px 0px;
 	height: 570px;
 }
 
@@ -102,7 +102,7 @@ a.sMedia {
 	float: left;
 	position: relative;
 	width: 50%;
-	padding: 0px 15px;
+	padding: 75px 15px;
 }
 
 div.nameBox p.name {
@@ -137,7 +137,12 @@ div.nameBox button.nameBoxButton:hover {
 	color: white;
 }
 
+div.profilePic {
+	position: relative;
+	float: right;
+	padding-right: 47px;
 
+}
 
 div.icons i {
 	color: 	rgb(82, 95, 127);
